@@ -1,7 +1,7 @@
 import feature1 from "./assets/invite_only_landing.svg";
 import feature2 from "./assets/hanging_out_easy_landing.svg";
 import feature3 from "./assets/fandom_landing.svg";
-const featuresArray = [
+export const features = [
   {
     img: feature1,
     tagline: "Create an invite only place where you belong",
@@ -21,7 +21,3 @@ const featuresArray = [
       "Get any community running with moderation tools and custom member access. Give members special powers, set up private channels and more.",
   },
 ];
-
-export const features = () => {
-  return featuresArray;
-};

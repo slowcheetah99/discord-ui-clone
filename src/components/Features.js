@@ -12,7 +12,7 @@ import {
 const Features = () => {
   return (
     <FeaturesWrapper>
-      {features().map((feature) => (
+      {features.map((feature) => (
         <Feature key={feature.tagline}>
           <FeatureText>
             <Tagline>{feature.tagline}</Tagline>
