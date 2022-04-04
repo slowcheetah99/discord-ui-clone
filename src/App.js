@@ -1,10 +1,16 @@
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./pages/Home";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
   return (
-    <div className="App">
-      <h1>App</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <GlobalStyles />
+        <Home />
+      </div>
+    </Router>
   );
 }
 
