@@ -17,7 +17,7 @@ import qrImg from "../assets/qr_code.png";
 
 const Login = () => {
   return (
-    <LoginContainer className="login-img">
+    <LoginContainer>
       <LogoContainer to="/">
         <Discord />
         <span>Discord</span>

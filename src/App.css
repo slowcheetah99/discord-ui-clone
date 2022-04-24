@@ -9,3 +9,103 @@
   color: #00b0f4;
   padding-left: 10px;
 }
+
+.icons {
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #2f3136;
+  color: #3ba55d;
+  width: 40px;
+  height: auto;
+}
+
+.icons:last-child {
+  padding: 10px;
+}
+
+.friend-btn {
+  background-color: #3ba55d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.friend-btn-color {
+  color: #3ba55d;
+}
+
+.sad-wampus {
+  width: 50%;
+  aspect-ratio: 1 / 1;
+}
+
+.meta-info {
+  margin-top: 40px;
+  text-align: center;
+  color: #b9bbbe;
+  padding-inline: 2%;
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends img {
+  width: 100%;
+}
+
+.friends p {
+  font-size: 0.9rem;
+  color: #8e9297;
+  margin-top: 5%;
+  font-weight: 700;
+}
+
+.meta-info p {
+  margin-top: 5%;
+  font-size: 0.75rem;
+}
+
+.friends-container {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.friends-container h4 {
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.friends-container h6 {
+  color: #8e9297;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.friend-search {
+  position: relative;
+}
+
+.friend-search input {
+  width: 130%;
+  aspect-ratio: 1 / 0.095;
+  border-radius: 5px;
+  background-color: #23272a;
+  padding: 3%;
+  border: none;
+  outline: none;
+}
+
+.friend-search [type="submit"] {
+  background-color: #404eed;
+  padding: 2%;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  right: -28%;
+  top: 20%;
+  font-size: 0.65rem;
+}
